@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,23 +9,25 @@ body {
     background-color: #d9dcd6;
 }
 
-nav {
+
+
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-nav h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-nav h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-nav div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +35,11 @@ nav div {
     font-size: 20px;
 }
 
-nav div ul {
+header nav ul {
     list-style-type: none;
 }
 
-nav div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -69,13 +72,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-section {
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,24 +89,23 @@ section {
     background-color: #2589bd;
 }
 
-article {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-article h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-article img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-aside {
+.service {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -112,11 +114,11 @@ aside {
     color: #ffffff;
 }
 
-aside img {
+.service img {
     max-height: 200px;
 }
 
-aside h2 {
+.service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
